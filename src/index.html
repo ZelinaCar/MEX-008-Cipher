@@ -2,20 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Cosas por hacer: </h1>
-
-
-      <label for="get-name">Dame tu nombre: </label>
-      <input id="get-name" type="text" placeholder="Ingresa tu nombre">
-      <p id="saludo" >Hola</p>
-    
-
-    </div>
+    <header>
+      <h3><strong>Tareas por hacer hoy:   </strong>
+          <img src="images/avatar-mujer.png" alt="avatar mujer" width="50" height="50" />
+      </h3>
+    </header>
+    <p></p>       
+    <div class = "box"> 
+      <p><label for = "tarea">
+          <input id = "tarea" type = "text" class = "caja-texto" placeholder = "Tarea..."> 
+        </label>
+      </p>
+      <p><label for = "offset">Escribe un número: 
+          <input id = "offset" type = "text" class = "caja-offset" placeholder = "2">
+        </label>
+      </p>
+      <p><button class = "boton" id = "boton-cifrar"> Cifrar</button>
+          <span>&nbsp;</span>
+         <button class = "boton" id = "boton-descifrar"> Descifrar</button>
+      </p>
+      <label for = "Resultado">Resultado:
+        <p><input id = "resultado" type = "text" class = "caja-texto"></p>
+      </label>
+  </div>
+  <footer>
+    <img src="images/footer.svg">
+  </footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

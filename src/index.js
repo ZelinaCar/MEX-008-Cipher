@@ -1,8 +1,11 @@
-const getName = document.getElementById('get-name');
-const boxPrint = document.getElementById('saludo');
-  const printName  = () => {
-    boxPrint.innerHTML = 'Hola' + ' ' + getName.value;
+
+  let cifrar = () => {
+    let cadena = document.getElementById('tarea').value; // texto a codificar
+    let offset = parseInt(document.getElementById('offset').value);
+    let textoModificado = cipher.cifrado(cadena, offset);
+
+    console.log(textoModificado);
+    //document.getElementById('resultado').innerHTML = textoModificado;
   }
-  
-  getName.addEventListener('keyup', printName)
-  
+document.getElementById('boton-cifrar').addEventListener('click',cifrar);
+
