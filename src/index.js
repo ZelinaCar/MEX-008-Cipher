@@ -2,10 +2,7 @@
   let cifrar = () => {
     let cadena = document.getElementById('tarea').value; // texto a codificar
     let offset = parseInt(document.getElementById('offset').value);
-    let textoModificado = cipher.cifrado(cadena, offset);
-
-    console.log(textoModificado);
-    //document.getElementById('resultado').innerHTML = textoModificado;
+    let nuevaCadena = cipher.cifrado(cadena, offset);
+    document.getElementById('resultado').value = nuevaCadena;
   }
 document.getElementById('boton-cifrar').addEventListener('click',cifrar);
-
