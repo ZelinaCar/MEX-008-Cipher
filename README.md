@@ -6,7 +6,7 @@
 . ¿Deseas que algunas de esas actividades o tareas sean inaccesibles a otras personas? 
 
 
-. Por ejemplo: una persona que entrevisté ("Godín") me pidió encriptar "pago de la tanda" en su lista de actividades :D
+. Por ejemplo: una persona que entrevisté ("Godín") me pidió encriptar "pago de la tanda" en su lista de actividades a realizar en horario laboral :D
 
 **CIFRA UNA ACTIVIDAD ES LA APP PARA TI**
 . Escribe una tarea para realizar y presiona **CIFRAR!**
