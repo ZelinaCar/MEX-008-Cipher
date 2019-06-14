@@ -1,11 +1,20 @@
 # CIFRA UNA ACTIVIDAD
 
 . ¿Escribes listas de tareas por hacer en tu día a día?
-. ¿Deseas que algunas de esas actividades o tareas sean inaccesibles a otras personas?
+
+
+. ¿Deseas que algunas de esas actividades o tareas sean inaccesibles a otras personas? 
+
+
+. Por ejemplo: una persona que entrevisté ("Godín") me pidió encriptar "pago de la tanda" en su lista de actividades :D
 
 **CIFRA UNA ACTIVIDAD ES LA APP PARA TI**
 . Escribe una tarea para realizar y presiona **CIFRAR!**
+
+
 . Guarda tu actividad o escribela en papel para tenerla a mano. 
+
+
 . Si llegas a olvidar de que se trata, solo presiona **DESCIFRAR!**
 
 
