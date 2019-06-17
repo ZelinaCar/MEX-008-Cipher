@@ -47,6 +47,7 @@ div {
   border: none;
   border-radius: 5px;
   padding: 5px;
+  /* text-transform: uppercase;*/
 }
 
 .caja-offset {
