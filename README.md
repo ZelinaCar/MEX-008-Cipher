@@ -1,3 +1,24 @@
+# CIFRA UNA ACTIVIDAD
+
+. ¿Escribes listas de tareas por hacer en tu día a día?
+
+
+. ¿Deseas que algunas de esas actividades o tareas sean inaccesibles a otras personas? 
+
+
+. Por ejemplo: una persona que entrevisté ("Godín") me pidió encriptar "pago de la tanda" en su lista de actividades a realizar en horario laboral :D
+
+**CIFRA UNA ACTIVIDAD ES LA APP PARA TI**
+. Escribe una tarea para realizar y presiona **CIFRAR!**
+
+
+. Guarda tu actividad o escribela en papel para tenerla a mano. 
+
+
+. Si llegas a olvidar de que se trata, solo presiona **DESCIFRAR!**
+
+
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
