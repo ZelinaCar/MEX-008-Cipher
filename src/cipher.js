@@ -1,7 +1,6 @@
 window.cipher = {
 
   encode: (offset, string) => {
-    
     let nuevaCadena = "";
     // let nuevaCadena =  [];
     for (let i = 0; i < string.length; i++) {
@@ -20,7 +19,6 @@ window.cipher = {
   },
 
   decode: (offset, string) => {
-    
     let nuevaCadena = "";
     for (let i = 0; i < string.length; i++) {
       let positionAscii = string.charCodeAt(i);
@@ -35,5 +33,4 @@ window.cipher = {
     }
   return nuevaCadena;
   }
-
 };

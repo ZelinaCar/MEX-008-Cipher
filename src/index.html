@@ -14,11 +14,13 @@
     <p></p>       
     <div class = "box"> 
       <p><label for = "tarea">
-            <input id = "tarea" type = "text" class = "caja-texto" placeholder = "Escribe una tarea..."> 
+            <input id = "tarea" type = "text" class = "caja-texto" autofocus
+              placeholder = "Escribe una tarea..."> 
         </label>
       </p>
       <p><label for = "offset">Escribe un número: 
-            <input id = "offset" type = "text" class = "caja-offset" placeholder = "2">
+            <input id = "offset" type = "text" class = "caja-offset" pattern = "[1-9]{2}" 
+            placeholder = "2">
         </label>
       </p>
       <p><button class = "boton" id = "boton-cifrar"> Cifrar</button>

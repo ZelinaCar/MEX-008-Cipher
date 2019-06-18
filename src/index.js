@@ -1,5 +1,3 @@
-
-
 let cifrar = () => {
   let cadena = document.getElementById('tarea').value;              //cadena a cifrar 
   let offset = parseInt(document.getElementById('offset').value);
@@ -9,7 +7,6 @@ let cifrar = () => {
   // document.getElementById('resultado').innerHTML = nuevaCadena;  //para un parrafo
 }
 document.getElementById('boton-cifrar').addEventListener('click',cifrar);
-
 
 let descifrar = () => {
   let cadena = document.getElementById('tarea').value;              //cadena a descifrar 

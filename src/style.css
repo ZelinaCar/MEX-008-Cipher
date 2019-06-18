@@ -2,10 +2,9 @@ body {
     font-family: "Helvetica", sans-serif;
     color: #113f67;
     background-color: #f3f9fb;
-    /* align-content: center; */
     text-align: center;
     background-image: url("images/background.svg");
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
 }
@@ -18,22 +17,13 @@ header {
     padding: 20px;
     color: #f3f9fb;
   }
+/*header span {  width: 50%;}  */
 
-/*header span {
-  width: 50%;
-}*/
 footer {
   width: 33%;
   height: 60px;
 }
-p  {
-  font-family: "Helvetica", sans-serif;
-  color: #113f67;
-}
-
-div {
-  font-family: "Helvetica", sans-serif;
-}
+p  {   color: #113f67;  }
 
 .box {                /* clase */
   background-color: #87c0cd;
@@ -51,7 +41,6 @@ div {
   border: none;
   border-radius: 5px;
   padding: 5px;
-  /* text-transform: uppercase;*/
 }
 
 .caja-offset {
