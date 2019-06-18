@@ -1,28 +1,37 @@
 window.cipher = {
 
-  encode: (string, offset) => {
+  encode: (offset, string) => {
     
-    string = string.toUpperCase();
     let nuevaCadena = "";
     // let nuevaCadena =  [];
     for (let i = 0; i < string.length; i++) {
-         let positionAscii = string.charCodeAt(i);
-         let newPositionAscii = ((positionAscii - 65 + offset) % 26 + 65);
-         let newCharacter = String.fromCharCode(newPositionAscii);
-         nuevaCadena = nuevaCadena.concat(newCharacter); 
-         // nuevaCadena.push(newCharacter); //devuelve el array separado por comas
+      let positionAscii = string.charCodeAt(i);
+      if (positionAscii === 32) { // si se trata de un espacio vacío, lo concatena tal cual
+            nuevaCadena = nuevaCadena + ' ';
+      } 
+      else {
+        let newPositionAscii = ((positionAscii - 65 + offset) % 26 + 65);
+        let newCharacter = String.fromCharCode(newPositionAscii);
+        nuevaCadena = nuevaCadena.concat(newCharacter);   
+      }
+      // nuevaCadena.push(newCharacter); //devuelve el array separado por comas
     }
   return nuevaCadena;
   },
 
-  decode: (string, offset) => {
-    //string = string.toUpperCase();
+  decode: (offset, string) => {
+    
     let nuevaCadena = "";
-    for (let i = 0; i < string.lenght; i++) {
-         let positionAscii = string.charCodeAt(i);
+    for (let i = 0; i < string.length; i++) {
+      let positionAscii = string.charCodeAt(i);
+      if (positionAscii === 32) {
+        nuevaCadena = nuevaCadena + ' ';
+      } 
+      else {
          let newPositionAscii = ((positionAscii + 65 - offset) % 26 + 65);
          let newCharacter = String.fromCharCode(newPositionAscii);
          nuevaCadena = nuevaCadena.concat(newCharacter); 
+      }
     }
   return nuevaCadena;
   }
