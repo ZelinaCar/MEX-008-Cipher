@@ -3,7 +3,7 @@ body {
     color: #113f67;
     background-color: #f3f9fb;
     text-align: center;
-    background-image: url("images/background.svg");
+    background-image: url("images/back.png");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -16,6 +16,7 @@ header {
     border-radius: 10px;
     padding: 20px;
     color: #f3f9fb;
+    margin-top: 15px;
   }
 /*header span {  width: 50%;}  */
 
