@@ -7,7 +7,10 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    /* align-items: center; */
 }
+
+a { color: #f3f9fb;  text-decoration: none; }
 
 header {
     background-color: #113f67;
@@ -17,13 +20,14 @@ header {
     padding: 20px;
     color: #f3f9fb;
     margin-top: 15px;
+    /* justify-content: space-between; */
   }
-/*header span {  width: 50%;}  */
 
 footer {
   width: 33%;
   height: 60px;
 }
+
 p  {   color: #113f67;  }
 
 .box {                /* clase */
@@ -64,12 +68,10 @@ p  {   color: #113f67;  }
   font-size: 16px;
 }
 
-.boton:hover {
+.boton:focus {
   background-color: #113f67;
 }
 
-#obj1 {     /*  id  */
-    font-size: medium;
-    font-weight: lighter;
-
+.boton:hover {
+  background-color: #113f67;
 }

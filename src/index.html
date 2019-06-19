@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset = "utf-8">
+    <title>Cesar Cipher</title>
+    <link rel = "stylesheet" href = "style.css" />
   </head>
   <body>
     <header>
-      <h3><strong>Tareas por hacer hoy:   </strong>
-          <img src="images/avatar-mujer.png" alt="avatar mujer" width="50" height="50" />
+      <h3><strong><!--a href = "javascript:mostrarOcultar('caja');" -->
+            Tareas por hacer hoy:<!--/a--></strong>
+          <img src = "images/avatar-mujer.png" alt = "avatar mujer" width = "50" height = "50" />
       </h3>
     </header>
     <p></p>       
-    <div class = "box"> 
+    <div id = "caja" class = "box"> 
       <p><label for = "tarea">
             <input id = "tarea" type = "text" class = "caja-texto" autofocus
               placeholder = "Escribe una tarea..."> 
         </label>
       </p>
-      <p><label for = "offset">Escribe un número: 
-            <input id = "offset" type = "text" class = "caja-offset" pattern = "[1-9]{2}" 
-            placeholder = "2">
+      <p><label for = "offset">Escribe tu clave:
+            <input id = "offset" type = "text" class = "caja-offset" 
+              placeholder = "2">
+            <!--input id = "offset" type = "text" class = "caja-offset" pattern = "[1-9]{2}" 
+              onkeypress="return esInteger(event);" placeholder = "2"-->
         </label>
       </p>
       <p><button class = "boton" id = "boton-cifrar"> Cifrar</button>
@@ -29,10 +32,7 @@
       </p>
       <p><label for = "Resultado">Resultado:</label></p>
       <p><input id = "resultado" type = "text" class = "caja-texto"></p>
-  </div>
-  <footer>
-    <img src="images/footer.svg">
-  </footer>
+    </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
